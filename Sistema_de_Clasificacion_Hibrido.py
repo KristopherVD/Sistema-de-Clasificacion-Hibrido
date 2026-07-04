@@ -119,7 +119,6 @@ def entrenar_evaluar_graficar(archivo_json):
         print(f"-> Gráfica guardada: {nombre_archivo_img}")
 
 if __name__ == "__main__":
-    # RUTA APUNTANDO A UN GRUPO DISTINTO PARA QUE TUS DATOS SEAN ÚNICOS
     carpeta_deep_pcb = r"C:\Users\kvela\Documents\Ux\6to semestre\Procesamiento de Imagenes\Parcial 3 (ordinario)\Examen\DeepPCB-master\PCBData\group13000"
     
     if os.path.exists(carpeta_deep_pcb):
